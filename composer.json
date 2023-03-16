@@ -1,0 +1,44 @@
+{
+  "name": "yoursjarvis/laravel-filter-query",
+  "description": "A small and simple Laravel package for adding filters functionality to a models by adding traits.",
+  "type": "library",
+  "version": "0.0.1",
+  "keywords": [
+    "laravel",
+    "search",
+    "searchable",
+    "trait",
+    "filters",
+    "filter",
+    "query",
+    "query-string",
+    "sort",
+    "sorting",
+    "order-by"
+  ],
+  "homepage": "https://github.com/yoursjarvis/laravel-filter-query.git",
+  "autoload": {
+    "psr-4": {
+      "YoursJarvis\\FiltersQuery\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "yoursjarvis",
+      "email": "tanmoydey8777@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "*",
+    "illuminate/database": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/yoursjarvis/laravel-filter-query.git"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev"
+}
