@@ -2,7 +2,7 @@
   "name": "yoursjarvis/laravel-filter-query",
   "description": "A small and simple Laravel package for adding filters functionality to a models by adding traits.",
   "type": "library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "laravel",
     "search",
