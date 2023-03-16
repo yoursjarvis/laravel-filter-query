@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 
 trait Searchable
 {
-    public function scopeSearch(Builder $builder, $search_term)
+    public function scopeSearch(Builder $builder, $search_term): Builder
     {
         if (!$searchable = $this->searchable) {
             throw new Exception("Please define the searchable property on model. ");
