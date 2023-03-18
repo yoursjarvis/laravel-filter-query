@@ -19,6 +19,12 @@ trait Filterable
                     $builder->whereBetween($column, $array_value);
                     break;
 
+                case str_contains($value, '!'):
+
+                    $array_value = explode('!', $value);
+                    $builder->whereNotBetween($column, $array_value);
+                    break;
+
                 case str_contains($value, '>'):
 
                     $builder->where($column, '>', substr($value, 1));
@@ -43,7 +49,7 @@ trait Filterable
                     $builder->onlyTrashed();
                     break;
 
-                case $column === 'trashed' && $value === 'include':
+                case $column === 'trashed' && $value === 'with':
 
                     $builder->withTrashed();
                     break;
