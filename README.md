@@ -4,6 +4,14 @@
 
 <img src="https://i.imgur.com/gOBBa0X.png" alt="banner_png">
 
+# Install
+
+```bash
+composer require yoursjarvis/laravel-filter-query
+```
+
+---
+
 # Searchable Trait
 
 This is a Laravel 9 trait that adds a `scopeSearch()` method to the model that uses it. The `scopeSearch()` method allows you to search the database records based on the term provided.
