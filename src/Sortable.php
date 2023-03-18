@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 
 trait Sortable
 {
-    public function scopeSortBy(Builder $builder, $sort_terms = null): Builder
+    public function scopeSortBy(Builder $builder, string $sort_terms = null): Builder
     {
         if ($sort_terms) {
 
